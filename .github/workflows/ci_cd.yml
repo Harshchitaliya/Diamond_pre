@@ -17,9 +17,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    # - name: Pull DVC-Tracked Data
-    #   run: |
-    #     dvc pull  # Pulls the tracked data    
+    - name: Pull DVC-Tracked Data
+      run: |
+        dvc pull  # Pulls the tracked data    
 
     - name: Run main file
       run: |
