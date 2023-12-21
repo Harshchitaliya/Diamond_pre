@@ -1,0 +1,23 @@
+schema: '2.0'
+stages:
+  make_dataset:
+    cmd: python .\src\data\make_dataset.py .\data\raw\aso.csv
+    deps:
+    - path: .\data\raw\aso.csv
+      hash: md5
+      md5: 93abd0d01bb1fd9f191fe5e7599e1fda
+      size: 33418
+    - path: .\src\data\make_dataset.py
+      hash: md5
+      md5: 843c5c86432a836f494463c0a7613f8c
+      size: 1967
+    params:
+      params.yaml:
+        make_dataset.seed: 2023
+        make_dataset.test_split: 0.2
+    outs:
+    - path: .\data\processed\
+      hash: md5
+      md5: d94a847c00e3c4bc76868c05c012c1c2.dir
+      size: 33869
+      nfiles: 4
