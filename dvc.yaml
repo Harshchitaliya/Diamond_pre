@@ -1,0 +1,8 @@
+stages:
+  make_dataset:
+    cmd .\src\data\make_dataset.py .\data\raw\
+    deps:
+    - .\data\raw\creditcard.csv
+    - .\src\data\make_dataset.py
+    params:
+    - make_dataset.test_split
