@@ -21,3 +21,37 @@ stages:
       md5: d94a847c00e3c4bc76868c05c012c1c2.dir
       size: 33869
       nfiles: 4
+  train_model:
+    cmd: python .\src\models\train_model.py .\data\processed\
+    deps:
+    - path: .\data\processed\
+      hash: md5
+      md5: d94a847c00e3c4bc76868c05c012c1c2.dir
+      size: 33869
+      nfiles: 4
+    - path: .\src\models\train_model.py
+      hash: md5
+      md5: 2caa55f5e3a4b4054111248fced70229
+      size: 2887
+    outs:
+    - path: .\models\
+      hash: md5
+      md5: c93fbbb4ce2aa1f758a0ab56b77fbb43.dir
+      size: 1189588
+      nfiles: 2
+  visualize:
+    cmd: python .\src\visualization\visualize.py .\models\model.joblib .\data\processed\
+    deps:
+    - path: .\data\processed\
+      hash: md5
+      md5: d94a847c00e3c4bc76868c05c012c1c2.dir
+      size: 33869
+      nfiles: 4
+    - path: .\models\model.joblib
+      hash: md5
+      md5: 225528d6e32c6304328c41028120c741
+      size: 1189517
+    - path: .\src\visualization\visualize.py
+      hash: md5
+      md5: 749f254596020ac436dbcfeb4e79ff73
+      size: 1703

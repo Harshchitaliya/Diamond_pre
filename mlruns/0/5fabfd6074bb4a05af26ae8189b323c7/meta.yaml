@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/diamond/mlruns/0/5fabfd6074bb4a05af26ae8189b323c7/artifacts
+end_time: 1703159811652
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5fabfd6074bb4a05af26ae8189b323c7
+run_name: gifted-koi-143
+run_uuid: 5fabfd6074bb4a05af26ae8189b323c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703159804155
+status: 3
+tags: []
+user_id: omshivay

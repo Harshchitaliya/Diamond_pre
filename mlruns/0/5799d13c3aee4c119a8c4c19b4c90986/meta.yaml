@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/diamond/mlruns/0/5799d13c3aee4c119a8c4c19b4c90986/artifacts
+end_time: 1703159859461
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5799d13c3aee4c119a8c4c19b4c90986
+run_name: colorful-sponge-661
+run_uuid: 5799d13c3aee4c119a8c4c19b4c90986
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703159854293
+status: 3
+tags: []
+user_id: omshivay

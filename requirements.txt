@@ -8,3 +8,6 @@ numpy
 matplotlib
 xgboost
 catboost
+mlflow
+dvc
+dvclive
