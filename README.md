@@ -15,7 +15,7 @@ This project aims to predict the color of a diamond based on Florence light data
 
 ## Installation
 
-``` git clone```
+``` git clone https://github.com/Harshchitaliya/Diamond_pre.git```
 
 ## Contributing
 
