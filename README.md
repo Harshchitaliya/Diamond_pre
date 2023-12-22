@@ -1,6 +1,6 @@
 # Diamond Color Prediction
 
-## Overview
+# Overview
 
 This project aims to predict the color of a diamond based on Florence light data. By analyzing specific attributes derived from Florence light measurements, the model predicts the likely color grade of a diamond.
 
