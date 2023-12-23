@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/diamond/mlruns/0/6993d85808224076a36bfc8d28d71016/artifacts
+end_time: 1703322895953
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6993d85808224076a36bfc8d28d71016
+run_name: zealous-lamb-798
+run_uuid: 6993d85808224076a36bfc8d28d71016
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703322890301
+status: 3
+tags: []
+user_id: omshivay
